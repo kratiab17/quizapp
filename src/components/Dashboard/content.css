@@ -1,0 +1,40 @@
+.card-container {
+    /* Adjust the minimum height as needed */
+    min-height: 300px;
+    max-height: 300px;
+  }
+
+  .card-image{
+    min-height: 300px;
+    max-height: 300px;
+  }
+  
+  /* .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+  }
+  
+  .text {
+    font-weight: bold;
+  }
+  
+  .text-lg {
+    font-size: 18px;
+    margin-bottom: 10px;
+  } */
+
+  @media (max-width: 768px) {
+    /* Adjust styles for mobile devices */
+    .card-container {
+      min-height: 500px !important; /* Increase the minimum height for mobile */
+    }
+
+    .card-image{
+        min-height:500px !important;
+       
+    }
+  }
+
+
+

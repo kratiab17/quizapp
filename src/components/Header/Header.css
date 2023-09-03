@@ -1,0 +1,28 @@
+/* .list{
+    height: 3rem;
+}
+
+.list div{
+    width: 60%;
+    display: inline;
+    margin-left: 20%;
+}
+.list li{
+
+    display: inline-block;
+    margin: 1.5%;
+    font-weight: bolder;
+    color:rgba(252, 118, 106, 1)
+}
+a
+{
+    color: rgba(252, 118, 106, 1);
+    text-decoration: none;
+} */
+
+.custom-quiz{
+    color: rgba(252, 118, 106, 1);
+  } 
+.custom{
+    border-radius: 50%;
+}

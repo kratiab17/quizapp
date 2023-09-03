@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.custom-button{
+  background: linear-gradient(to bottom , rgba(252, 118, 106, 1),rgba(120, 57, 55, 1))  !important;
+  border: 1px solid   !important;
+  border-radius: 10px !important;
+  margin: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .2); ;
+}
+.custom-color {
+  
+  color : rgba(252, 118, 106, 1) ! important
+}
+.heading
+{
+    font-size: 30px;
+    color: rgba(252, 118, 106, 1)
+}
+li{
+  list-style: none;
+}
+input[type="radio"]{
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid  rgba(252, 118, 106, 1); /* Border color */
+  border-radius: 50%; /* Makes the checkbox round */
+  outline: none;
+  transition: border-color 0.3s;
+}
+input[type="radio"]:checked {
+  border: transparent;
+  background:  linear-gradient(to bottom , rgba(252, 118, 106, 1),rgba(120, 57, 55, 1)) /* Change to your desired color when checked */
+}
